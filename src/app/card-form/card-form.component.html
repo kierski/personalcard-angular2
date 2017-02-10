@@ -1,0 +1,52 @@
+<form class="form" [ngClass]="{'form-acitve' : selected == true}">
+
+  <div class="form__field">
+    <span>Name</span>
+    <input type="text">
+  </div>
+  <div class="form__field">
+    <span>Email</span>
+    <input type="text">
+  </div>
+  <div class="form__field">
+    <span>Phone</span>
+    <input type="text">
+  </div>
+  <div class="form__field">
+    <span>Description</span>
+    <textarea></textarea>
+  </div>
+</form>
+
+<div class="container" [ngClass]="{'container-active' : selected == true}">
+
+  <header class="header">
+    <span class="header__hamburger" (click)="selected == true ? selected = false : selected = true" [ngClass]="{'header_hamburger-active' : selected == true}">
+    </span>
+    <div class="header__intro">
+      <h2>Name Surname</h2>
+      <h3>type of job</h3>
+    </div>
+  </header>
+
+  <div class="output">
+    <div class="output__data">
+      <span><p>Name</p></span>
+      <h4>Name Surname</h4>
+    </div>
+    <div class="output__data">
+      <span><p>Email</p></span>
+      <h4>mail@mail.pl</h4>
+    </div>
+    <div class="output__data">
+      <span><p>Description</p></span>
+      <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Cupiditate, neque.</h4>
+    </div>
+    <div class="output__data">
+      <span><p>Phone</p></span>
+      <h4>500 500 500</h4>
+    </div>
+  </div>
+
+</div>
