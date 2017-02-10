@@ -9,9 +9,16 @@ export class CardFormComponent implements OnInit {
 
   selected = false;
 
+  user = {
+    name: 'Lorem ipsum',
+    job: 'Lorem ipsum',
+    email: 'Lorem ipsum',
+    description: 'Lorem ipsum',
+    phone: 'Lorem ipsum'
+  };
+
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() { }
 
 }

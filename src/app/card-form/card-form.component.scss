@@ -12,7 +12,7 @@ $primary-text-color:   #212121;
 $secondary-text-color: #757575;
 $divider-color:        #BDBDBD;
 
-body {
+.content {
   font-family: 'Cantarell', sans-serif;
   overflow-x:hidden;
 }
@@ -60,7 +60,7 @@ body {
   background-size: cover;
   margin-top: 2%;
   width: 100%;
-  height: 45vh;
+  height: 65vh;
   position: relative;
   &__hamburger {
     position: absolute;
